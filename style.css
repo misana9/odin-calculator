@@ -1,0 +1,44 @@
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+}
+
+.btn{
+    height: 75px;
+    width: 75px;
+    font-size: 40px;
+}
+
+.number{
+    border: 1px solid black;
+}
+
+#screen{
+    border: 2px solid black;
+    width: 300px;
+    height: 75px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: end;
+    margin: 15px;
+    gap: 5px;
+}
+
+.first-row{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.previous{
+    font-size: 15px;
+}
+
+.current{
+    font-size: 30px;
+}
